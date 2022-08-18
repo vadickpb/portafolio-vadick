@@ -11,292 +11,329 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>[Vadick Palomino Bueno] | Desarrollador</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <!-- Put here your site title -->
+  <title>[Vadick Palomino Bueno] | Desarrollador</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[username], [name], skill" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Your name here] | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          <span class="text-color-main">Vadick Palomino Bueno</span>
-          <br />
-          Ingeniero de Sistemas.
-          <br>
-          Desarrollador Web
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Mas sobre mi.</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        <span class="text-color-main">Vadick Palomino Bueno</span>
+        <br />
+        Ingeniero de Sistemas.
+        <br>
+        Desarrollador Web
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Mas sobre mi.</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        Sobre mí
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/DSC_0340.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Ingeniero de Sistemas y Cómputo, Especializado en el desarrollo de aplicaciones web y apasionado de la
+              tecnología, Los lenguajes que uso de parte del
+              Frontend son HTML, CSS, Javascript con los frameworks Jquery, Bootstrap, Vue y React.
+              <br>
+              El lenguaje que utilizo de parte del backend es PHP con el framework Laravel. Además de generar API Rest.
+            </p>
+            <p class="about-wrapper__info-text">
+              En la parte personal soy un Cusqueño con estima hacia el respeto y la puntualidad, Me gusta el trabajo en
+              equipo con la intención de ganarme la confianza y aportar mucho al lugar donde trabajo.
+              <br>
+              Me considero un profesional creativo e innovador puesto que al ser un apasionado de la tecnología, es un
+              campo donde tienes que estar actualizado constantemente.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="#projects">
+                Mira mis proyectos
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          Sobre mí
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Proyectos
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/DSC_0340.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Aplicativo web de Restaurant Picantería Waly</h3>
+              <div>
+                <p class="mb-4">
+                  El aplicativo web de la picantería waly es un sistema desarrollado en el lenguaje de programación PHP,
+                  además de javascript con JQuery y para la base de datos con el gestor de base de datos MYSQL.
+                  <br>
+                  Cuenta con un inicio de sesión con login de usuario y contraseña de seguridad. Además de los
+                  siquientes módulos:
+                  POS Venta, POS Delivery, Administración, Mantenimiento, Compras, Cajas, Ventas y Gráficos.
+
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://drive.google.com/file/d/19w2sdb7he_QrcfFLXEEuXjTRGiqbFoYF/view?usp=sharing">
+                Ver video
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/restaurant_waly">
+                Código fuente
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Ingeniero de Sistemas y Cómputo, Especializado en el desarrollo de aplicaciones web y apasionado de la tecnología, Los lenguajes que uso de parte del
-                Frontend son HTML, CSS, Javascript con los frameworks Jquery, Bootstrap, Vue y React.
-                <br>
-                El lenguaje que utilizo de parte del backend es PHP con el framework Laravel. Además de generar API Rest.
-              </p>
-              <p class="about-wrapper__info-text">
-                En la parte personal soy un Cusqueño con estima hacia el respeto y la puntualidad, Me gusta el trabajo en equipo con la intención de ganarme la confianza y aportar mucho al lugar donde trabajo.
-                <br>
-                Me considero un profesional creativo e innovador puesto que al ser un apasionado de la tecnología, es un campo donde tienes que estar actualizado constantemente.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#projects">
-                  Mira mis proyectos
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Proyectos
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Aplicativo web de Restaurant Picantería Waly</h3>
-                <div>
-                  <p class="mb-4"> 
-                    El aplicativo web de la picantería waly es un sistema desarrollado en el lenguaje de programación PHP, además de javascript con JQuery y para la base de datos con el gestor de base de datos MYSQL.
-                    <br>
-                    Cuenta con un inicio de sesión con login de usuario y contraseña de seguridad. Además de los siquientes módulos:
-                    POS Venta, POS Delivery, Administración, Mantenimiento, Compras, Cajas, Ventas y Gráficos.
-
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/proyecto-waly.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://drive.google.com/file/d/19w2sdb7he_QrcfFLXEEuXjTRGiqbFoYF/view?usp=sharing">
-                  Ver video
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/restaurant_waly">
-                  Código fuente
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/proyecto-waly.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
+        <!-- /END Project -->
 
-                    <!-- Each .row is a project -->
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-12">
-                        <div class="project-wrapper__text">
-                          <h3 class="project-wrapper__text-title">Aplicativo web de Ecommerce con React y Firebase</h3>
-                          <div>
-                            <p class="mb-4"> 
-                              El aplicativo web Ecommerce de tienda de ropa utilicé el framework de javascript Reactjs para la parte del Frontend y para la parte del Backend use firebase,
-                              <br>
-                              En react esta desarrollado con funcional components y hooks, cuenta con una autenticación ingresando datos y autenticación con Google, consumiendo los servicios de firebase. Además de un carrito de compras realizado con useContext.
-          
-                            </p>
-                          </div>
-                          <a target="_blank" class="cta-btn cta-btn--hero" href="https://vadickpb.github.io/ecommerce-ropa/">
-                            Ver Página 
-                          </a>
-                          <a target="_blank" class="cta-btn text-color-main" href="https://vadickpb.github.io/ecommerce-ropa/">
-                            Código fuente
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-12">
-                        <div class="project-wrapper__image">
-                          <a href="#!" target="_blank">
-                            <div data-tilt class="thumbnail rounded">
-                              <img class="img-fluid" src="./assets/ecommerce-brand.png" />
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /END Project -->
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Aplicativo web de Ecommerce con React y Firebase</h3>
+              <div>
+                <p class="mb-4">
+                  El aplicativo web Ecommerce de tienda de ropa utilicé el framework de javascript Reactjs para la parte
+                  del Frontend y para la parte del Backend use firebase,
+                  <br>
+                  En react esta desarrollado con funcional components y hooks, cuenta con una autenticación ingresando
+                  datos y autenticación con Google, consumiendo los servicios de firebase. Además de un carrito de
+                  compras realizado con useContext.
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Sistema de Historias Clínicas Prevengo</h3>
-                <div>
-                  <p class="mb-4">
-                    Sistema web diseñado para la administración de las historias clínicas en la Clínica Prevengo, Donde se agrega pacientes, los cuales pasan a triaje con una enfermera y posteriormente a atención con un médico. Una vez finalizada la atención se generan las historias clínicas con los datos y tratamientos de cada paciente, además de generar una receta que se le es entregada al paciente.
-                    <br>
-                    Este sistema se desarrollo en el lenguaje de programación php y Javascript con el framework JQUERY. Además de usar la plantilla AdminLTE.
-                  </p>
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://vadickpb.github.io/ecommerce-ropa/">
+                Ver Página
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://vadickpb.github.io/ecommerce-ropa/">
+                Código fuente
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://vadickpb.github.io/ecommerce-ropa/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/ecommerce-brand.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://drive.google.com/file/d/1AwFkBROzQa5a_Cy5Awb0RR8HsdwMGXAC/view?usp=sharing">
-                  Ver video
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/prevengo_historias">
-                  Código fuente
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/proyecto-prevengo.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
+        <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Proyecto de Plataforma de Trabajos</h3>
-                <div>
-                  <p class="mb-4">
-                    Proyecto desarrollado en el lenguaje de programación PHP con el framework Laravel y en el frontend el lenguaje Javascript con el framework Vue.
-                    <br>
-                    Es una plataforma de empleos donde los usuarios pueden buscar y postular a algún empleo y a la vez pueden publicar trabajos disponibles, donde pueden seleccionar el país y las tecnolgías que debe conocer el postulante.
-                  </p>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Aplicativo Web de Información de Crypto Monedas</h3>
+              <div>
+                <p class="mb-4">
+                  El aplicativo web de información de cryptomonedas es un aplicativo web desarrollado con el framework React, consumiendo un API crypto y usando hookas
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://vadickpb.github.io/crypto-app/">
+                Ver Página
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/crypto-app">
+                Código fuente
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://vadickpb.github.io/crypto-app/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/Crypto-app.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  Ver video
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/developer-jovs">
-                  Código fuente
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">                 
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/proyecto-devjobs.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
         </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Sistema de Historias Clínicas Prevengo</h3>
+              <div>
+                <p class="mb-4">
+                  Sistema web diseñado para la administración de las historias clínicas en la Clínica Prevengo, Donde se
+                  agrega pacientes, los cuales pasan a triaje con una enfermera y posteriormente a atención con un
+                  médico. Una vez finalizada la atención se generan las historias clínicas con los datos y tratamientos
+                  de cada paciente, además de generar una receta que se le es entregada al paciente.
+                  <br>
+                  Este sistema se desarrollo en el lenguaje de programación php y Javascript con el framework JQUERY.
+                  Además de usar la plantilla AdminLTE.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://drive.google.com/file/d/1AwFkBROzQa5a_Cy5Awb0RR8HsdwMGXAC/view?usp=sharing">
+                Ver video
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/prevengo_historias">
+                Código fuente
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/proyecto-prevengo.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Proyecto de Plataforma de Trabajos</h3>
+              <div>
+                <p class="mb-4">
+                  Proyecto desarrollado en el lenguaje de programación PHP con el framework Laravel y en el frontend el
+                  lenguaje Javascript con el framework Vue.
+                  <br>
+                  Es una plataforma de empleos donde los usuarios pueden buscar y postular a algún empleo y a la vez
+                  pueden publicar trabajos disponibles, donde pueden seleccionar el país y las tecnolgías que debe
+                  conocer el postulante.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                Ver video
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/vadickpb/developer-jovs">
+                Código fuente
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/proyecto-devjobs.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END Projects Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contacto
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            (+51)965736797
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:vadick1@gmail.com"
-            >Enviame un correo</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/vadickpb/" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2022 - Portafolio de <a href="https://github.com/cobidev" target="_blank">Vadick Palomino Bueno</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contacto
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          (+51)965736797
         </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:vadick1@gmail.com">Enviame un correo</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="#!" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a href="#!" target="_blank">
+          <i class="fa fa-codepen fa-inverse"></i>
+        </a>
+        <a href="#!" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/vadickpb/" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2022 - Portafolio de <a href="https://github.com/cobidev" target="_blank">Vadick Palomino Bueno</a>
+        </a>
+      </p>
 
 
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
